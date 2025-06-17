@@ -12,7 +12,7 @@ export default function handler(req, res) {
     name: "Calculator MCP Server",
     version: "1.0.0",
     status: "running",
-    protocol: "mcp/2024-11-05",
+    protocol: "mcp/0.1.0",
     endpoints: {
       health: "/api/health",
       mcp: "/api/mcp (POST)",
