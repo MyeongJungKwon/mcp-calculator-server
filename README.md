@@ -6,6 +6,13 @@
 
 **Vercel에 배포된 HTTPS 서버**: `https://your-app.vercel.app/api/mcp`
 
+## 업데이트 내역
+
+### 2025-06-17
+- MCP 프로토콜 버전을 표준 `0.1.0`으로 변경
+- Claude "통합 추가하기" 기능과의 호환성 개선
+- `capabilities.tools` 응답 최적화
+
 ## 기능
 
 - **덧셈 (add)**: 두 숫자를 더합니다

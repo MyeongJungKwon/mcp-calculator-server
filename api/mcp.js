@@ -76,16 +76,14 @@ class MCPServer {
             jsonrpc: "2.0",
             id,
             result: {
-              protocolVersion: "2024-11-05",
+              protocolVersion: "0.1.0",
               capabilities: {
-                tools: {},
-                logging: {}
+                tools: {}
               },
               serverInfo: {
                 name: "calculator-server",
                 version: "1.0.0"
-              },
-              instructions: "Use this server to perform basic arithmetic calculations."
+              }
             }
           };
 
@@ -206,7 +204,7 @@ export default function handler(req, res) {
     res.json({
       name: "Calculator MCP Server",
       version: "1.0.0",
-      protocol: "mcp/2024-11-05",
+      protocol: "mcp/0.1.0",
       status: "ready",
       message: "Use POST method to interact with MCP protocol"
     });
