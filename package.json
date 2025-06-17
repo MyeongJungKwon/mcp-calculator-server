@@ -1,0 +1,28 @@
+{
+  "name": "mcp-calculator-server",
+  "version": "1.0.0",
+  "description": "Simple calculator MCP server",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test.js",
+    "test-mcp": "node test-client.js",
+    "vercel-dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  },
+  "keywords": ["mcp", "calculator", "math", "vercel"],
+  "author": "",
+  "license": "MIT"
+}
